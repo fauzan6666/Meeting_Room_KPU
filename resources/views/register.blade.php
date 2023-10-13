@@ -39,7 +39,7 @@
                 <a href="#" class="text-decoration-none text-center">Forgot Password</a>
                 <button class="signin">Sign Up</button>
                 <div class="text-center">
-                  <span class="d-inline">Don't have an account ? <a href="#" class="d-inline text-decoration-none">Sign Up Now</a></span>
+                  <span class="d-inline">Back To  <a href="/login" class="d-inline text-decoration-none">Login</a></span>
                 </div>
               </div>
             </div>
