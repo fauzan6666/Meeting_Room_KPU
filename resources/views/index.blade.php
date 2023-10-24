@@ -15,9 +15,9 @@
     <title>HOME</title>
   </head>
   <body>
-    <header>
+    <header class="beranda" id="beranda">
       <!-- NAVIGATION BAR-->
-      <section class="navigation" id="home">
+      <section class="navigation fixed-top" id="home">
         <div class="container">
           <div class="box-navigation">
             <div class="box">
@@ -25,23 +25,27 @@
             </div>
             <div class="box menu-navigation animate__animated animate__slideInUp">
               <ul>
-                <li>
+                <li class="btn btn-info">
                   <i class="ri-home-3-line"></i>
-                  <a href="#home">Home</a>
+                  <a href="/login">Login</a>
                 </li>
-                <li>
+                <li class="btn btn-outline-primary">
+                  <i class="ri-beranda-line"></i>
+                  <a href="#beranda">Home</a>
+                </li>
+                <li class="btn btn-outline-primary">
                   <i class="ri-information-line"></i>
                   <a href="#about">About</a>
                 </li>
-                <li>
-                  <i class="ri-dashboard-line"></i>
+                <li class="btn btn-outline-primary">
+                  <i class="ri-famous-line"></i>
                   <a href="#famous">Famous</a>
                 </li>
-                <li>
+                <li class="btn btn-outline-primary">
                   <i class="ri-gallery-line"></i>
                   <a href="#gallery">Gallery</a>
                 </li>
-                <li>
+                <li class="btn btn-outline-primary">
                   <i class="ri-contacts-line"></i>
                   <a href="#contact">Contact</a>
                 </li>
@@ -56,12 +60,9 @@
       <!-- NAVIGATION BAR-->
 
       <!-- Hero -->
-      <section class="hero">
+      <section class="hero" id="hero">
         <h1 class="animate__animated animate__backInDown animate__flipInX">Amazing Mountain yang ada di seluruh indonesia</h1>
       </section>
-      <div class="btn btn-primary">
-        <a href="#">Login</a>
-      </div>
       <!-- Hero -->
     </header>
 

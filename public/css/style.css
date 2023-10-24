@@ -183,7 +183,7 @@ header .hero h1 {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #edf6f9;
+    background-color: #700058;
 }
 
 .about .box-about {
@@ -200,10 +200,12 @@ header .hero h1 {
 
 .about .box-about .box:nth-child(1) h1 {
     font-size: 42px;
+    color: aqua;
 }
 
 .about .box-about .box:nth-child(1) p {
     line-height: 2;
+    color: rgb(255, 255, 255);
 }
 
 .about .box-about .box:nth-child(2) img {
@@ -253,6 +255,7 @@ header .hero h1 {
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: darkred;
 }
 
 .gallery .box-gallery {
